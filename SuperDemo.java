@@ -1,10 +1,10 @@
 Class A
 {
-  public A()
+  public void A()
   {
     System.out.println("in A");
   }
-  public A(int i)
+  public void A(int i)
   {
     System.out.println("in A int");
   }
@@ -12,22 +12,28 @@ Class A
 
 Class B extends A
 {
-  public B()
+  public void B()
   {
     super(5);
     System.out.println("in B");
   }
-  public B(int i)
+  public void B(int i)
   {
     super(i);
     System.out.println("in B int");
   }
 }
 
-public class main
+public class SuperDemo
 {
   public static void main(String[] args)
   {
     B obj = new B();
   }
 }
+
+
+//Output
+//
+//in A int
+//in B
