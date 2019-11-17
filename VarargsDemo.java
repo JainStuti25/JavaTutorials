@@ -12,7 +12,7 @@ Class Calc
    }
 }
 
-public class Main {
+public class VarargsDemo {
     public static void main(String[] args) {
     
     Calc obj= new Calc();
@@ -20,3 +20,6 @@ public class Main {
     
     }
 }
+
+//Output
+//15
