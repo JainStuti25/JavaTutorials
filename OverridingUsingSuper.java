@@ -1,6 +1,6 @@
 Class A
 {
-  public show()
+  public void show()
   {
     System.out.println("in A");
   }
@@ -8,14 +8,14 @@ Class A
 
 Class B extends A
 {
-  public show()
+  public void show()
   {
     super.show();
     System.out.println("in B");
   }
 }
 
-public class main
+public class OverridingUsingSuper
 {
   public static void main(String[] args)
   {
@@ -23,3 +23,9 @@ public class main
     obj.show();
   }
 }
+
+
+
+//Output
+//in A
+//in B
