@@ -1,3 +1,6 @@
+//Find all triplets with zero sum
+//Given an array of distinct elements. The task is to find triplets in array whose sum is zero.
+
 class Triplet
 {
 public boolean findTriplets(int arr[], int n) 
