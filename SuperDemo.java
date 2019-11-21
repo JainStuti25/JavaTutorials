@@ -1,4 +1,4 @@
-Class A
+class A
 {
   public void A()
   {
@@ -10,7 +10,7 @@ Class A
   }
 }
 
-Class B extends A
+class B extends A
 {
   public void B()
   {
