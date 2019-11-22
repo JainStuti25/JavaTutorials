@@ -1,5 +1,5 @@
 
-Class Calc
+class Calc
 {
    public int add(int ... n)
     {
