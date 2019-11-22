@@ -1,4 +1,4 @@
-Class A
+class A
 {
   public void show()
   {
@@ -6,7 +6,7 @@ Class A
   }
 }
 
-Class B extends A
+class B extends A
 {
   public void show()
   {
@@ -14,7 +14,7 @@ Class B extends A
   }
 }
 
-Class C extends A
+class C extends A
 {
   public void show()
   {
